@@ -5,8 +5,8 @@ namespace MvcPaging
 {
     public class PaginationModel
     {
+        
         public int PageSize { get; internal set; }
-
         public int CurrentPage { get; internal set; }
 
         public int PageCount { get; internal set; }
